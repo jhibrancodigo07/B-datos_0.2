@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2023-09-08T18:12:55.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="Np2A5WXDLMc4l--YsR8R" version="21.6.9" type="github">
+  <diagram name="Página-1" id="UdaIMntULJyIC3ZBPCX-">
+    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-38" value="&lt;pre style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;;&quot;&gt;Se desea diseñar una base de datos para almacenar y gestionar la información empleada por una empresa dedicada a la venta de automóviles, teniendo en cuenta los siguientes aspectos:&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;La empresa dispone de una serie de&lt;b&gt; coches&lt;u&gt; &lt;/u&gt;&lt;/b&gt;para su venta. Se necesita conocer la &lt;b&gt;&lt;u&gt;matrícula&lt;/u&gt;, marca y modelo, el color y el precio de venta &lt;/b&gt;de cada coche.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Los datos que interesa conocer de cada &lt;b&gt;cliente&lt;/b&gt; son el &lt;b&gt;RFC, nombre, dirección, ciudad y número de teléfono&lt;/b&gt;: además, los clientes se diferencian por un &lt;b&gt;&lt;u&gt;código interno&lt;/u&gt;&lt;/b&gt; de la empresa que se incrementa automáticamente cuando un cliente se da de alta en ella.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Un cliente puede comprar tantos coches como desee a la empresa.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Un coche determinado solo puede ser comprado por un único cliente.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;El concesionario también se encarga de llevar a cabo las revisiones que se realizan a cada coche.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Cada &lt;b&gt;revisión&lt;/b&gt; tiene asociado un &lt;b&gt;&lt;u&gt;código que se incrementa automáticamente&lt;/u&gt;&lt;/b&gt; por cada revisión que se haga.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;De cada revisión se desea saber si se ha hecho &lt;b&gt;cambio de filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;border-color: var(--border-color); box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Los coches pueden pasar varias revisiones en el concesionario.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=default;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="1860" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-39" value="Coche" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-40" value="Cliente" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-41" value="Revision" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-43" value="Concesionario" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-44" target="atrDF4UxZ_qqmOmnXflx-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-44" value="Matricula" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="320" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-46" target="atrDF4UxZ_qqmOmnXflx-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-46" value="PK_Cliente" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="700" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-48" target="atrDF4UxZ_qqmOmnXflx-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-48" value="PK_Revision" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-50" target="atrDF4UxZ_qqmOmnXflx-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-50" value="PK_Concesionario" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-52" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-53" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="870" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-54" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-55" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-40" target="atrDF4UxZ_qqmOmnXflx-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="810" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-56" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="atrDF4UxZ_qqmOmnXflx-55" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-57" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-52" target="atrDF4UxZ_qqmOmnXflx-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="810" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-58" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="atrDF4UxZ_qqmOmnXflx-57" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-64" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-39" target="atrDF4UxZ_qqmOmnXflx-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="520" as="sourcePoint" />
+            <mxPoint x="620" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-65" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="atrDF4UxZ_qqmOmnXflx-64" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-69" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="atrDF4UxZ_qqmOmnXflx-52" target="atrDF4UxZ_qqmOmnXflx-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atrDF4UxZ_qqmOmnXflx-70" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="atrDF4UxZ_qqmOmnXflx-69" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

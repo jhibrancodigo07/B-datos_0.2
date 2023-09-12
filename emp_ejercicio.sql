@@ -68,6 +68,25 @@ SELECT * FROM dept;
 SELECT * FROM emp;
 SELECT * FROM salgrade;
 
-DESCRIBE dept;
-DESCRIBE emp;
-DESCRIBE salgrade;
+DROP TRIGGER IF EXISTS emp_verifica_BU;
+DELIMITER $$
+CREATE TRIGGER emp_verifica_BU 
+BEFORE UPDATE ON emp
+FOR EACH ROW
+BEGIN
+    IF NEW.sal<0 THEN
+       SET NEW.sal = 0;
+    END IF;
+    
+    IF NEW.sal>5000 THEN
+       SET NEW.sal = 5000;
+    END IF;
+    
+    IF NEW.deptno<0 THEN
+		SET NEW.deptno = 10;
+	END IF;
+    
+    IF NEW.deptno>40 THEN
+		SET NEW.deptno = 40;
+	END IF;
+END$$
